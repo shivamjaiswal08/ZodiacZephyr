@@ -4,4 +4,4 @@ services:
   bot:
     build: .
     environment:
-      - BOT_TOKEN={BOT_TOKEN}
+      - BOT_TOKEN=${BOT_TOKEN}
